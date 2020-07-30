@@ -14,6 +14,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Datos Área</title>
         <link href="CSS/EstilosArea.css" rel="stylesheet" type="text/css"/>
+        <img src="IMAGENES/areale.png" alt="areale img" class="areale"/>
         <%!
             String consulta;
             String consulta1;

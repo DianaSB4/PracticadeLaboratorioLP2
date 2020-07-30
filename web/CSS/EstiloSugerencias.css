@@ -1,0 +1,130 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../IMAGENES/fondosuge.jpg)no-repeat center top;
+  background-size: cover;
+  height: 170vh;
+}
+
+img.Sugerencias {
+    position:absolute;
+    left: 2%;
+    top: 30%;
+    width:250px;
+    height: 260px;
+}
+img.Sugerenciass {
+    position:absolute;
+    right: 5%;
+    top: 35%;
+    width:250px;
+    height: 190px;
+}
+img.sugle {
+    position:absolute;
+    left:23%;
+    top: 3%;
+    width:800px;
+    height: 190px;
+}
+
+table.Sugerencias {
+    border-collapse: collapse;
+    top:120%;
+    left:  50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 4px 10px;
+}
+table.Sugerencias a:hover {
+font-size:20px;
+color:#100;
+}
+table.Sugerencias td, table.Sugerencias th {
+    border: 3px solid #8f56bf;
+    padding: 6px 12px;
+}
+table.Sugerencias thead td , table.Sugerencias thead th,
+table.Sugerencias tfoot td, table.Sugerencias tfoot th{
+    font-weight: bold;
+    background-color: #4a1973;
+    color: #FFFFFF;
+}
+table.Sugerencias tr:nth-of-type(odd) {
+    background-color: #b25cfa;
+}
+table.Sugerencias tr:nth-of-type(even){
+    background-color: #FFFFFF;
+}
+table.Sugerencias tbody tr:hover {
+    background-color: #FFFF00;
+}
+table.Sugerencias input[type="button"]{
+  border: none;
+  cursor: pointer;
+  background: #4a1973;
+  color: #FFFFFF;
+  font-size:16px;
+  border-radius:20px;
+}
+
+table.Sugerencias input[type="button"]:hover {
+  cursor: pointer;
+  background: #4b99b8;
+  color: #000;
+  border-radius:20px;
+}
+
+/*
+Agregar Sugerencia
+*/
+table.sug {
+    border-collapse: collapse;
+    top:50%;
+    left:  50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+table.sug td, table.sug th {
+   border: 3px solid #1b8ecc;
+    padding: 6px 12px;
+    
+    font-weight: bold;
+}
+table.sug thead td, table.sug thead th,
+table.sug tfoot td, table.sug tfoot th{
+    font-weight: bold;
+    background-color: #4faadb;
+    color: #000;
+}
+table.sug tr:nth-of-type(odd) {
+    color: #000;
+    background-color: #9dcbe3;
+}
+table.sug tr:nth-of-type(even){
+    color: #000;
+    background-color: #9dcbe3;
+}
+table.sug tbody tr:hover {
+    font-style: italic;
+    font-size:18px;
+    
+}
+table.sug input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  background: #4b99b8;
+  color: #000;
+  font-size:16px;
+  border-radius:20px;
+}
+
+table.sug input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+  border-radius:20px;
+}

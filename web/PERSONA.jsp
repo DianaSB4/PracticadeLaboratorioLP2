@@ -15,6 +15,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Datos Persona</title>
         <link href="CSS/EstilosPersona.css" rel="stylesheet" type="text/css"/>
+        <img src="IMAGENES/personasle.png" alt="personasle img" class="personasle"/>
+
         <%!
             String consulta;
             String consulta1;

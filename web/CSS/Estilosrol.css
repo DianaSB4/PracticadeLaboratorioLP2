@@ -33,7 +33,21 @@ table.general tr:nth-of-type(even){
 table.general tbody tr:hover {
     background-color: #FFFF00;
 }
+table.general input[type="button"]{
+  border: none;
+  cursor: pointer;
+  background: #4b99b8;
+  color: #000;
+  font-size:16px;
+  border-radius:20px;
+}
 
+table.general input[type="button"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+  border-radius:20px;
+}
 img.rol {
     position:absolute;
     left: 20%;
@@ -113,28 +127,16 @@ table.rol tbody tr:hover {
     font-size:18px;
     
 }
-table.rol input[type="button"] {
-  border: none;
-  cursor: pointer;
-  background: #4b99b8;
-  color: #000;
-  font-size:18px;
-  border-radius:20px;
-}
+
 table.rol input[type="submit"]{
   border: none;
   cursor: pointer;
-  background: #4b99b8;
+  background: #ff8840;
   color: #000;
   font-size:16px;
   border-radius:20px;
 }
-table.rol input[type="button"]:hover {
-  cursor: pointer;
-  background: #ffc107;
-  color: #000;
-  border-radius:20px;
-}
+
 table.rol input[type="submit"]:hover {
   cursor: pointer;
   background: #ffc107;

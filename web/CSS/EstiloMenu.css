@@ -1,7 +1,14 @@
 /* 
     Author     : Diana Santos
 */
+img {
+    position:absolute;
+    top: 62%;
+    right: 210px; 
+    width:200px;
+    height: 230px;
 
+}
 table.menu {
     border-collapse: collapse;
     top:40%;

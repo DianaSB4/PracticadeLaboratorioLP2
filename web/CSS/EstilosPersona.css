@@ -1,6 +1,13 @@
+img.personasle {
+    position:absolute;
+    left:20%;
+    top: 1%;
+    width:800px;
+    height: 190px;
+}
 table.general {
     border-collapse: collapse;
-    top:140%;
+    top:160%;
     left:50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -51,13 +58,13 @@ body {
   padding: 0;
   background: url(../IMAGENES/fondopersona.jpeg) no-repeat center top;
   background-size: cover;
-  height: 230vh;
+  height: 260vh;
 }
 
 /*Agregar Sugerencia*/
 table.rol {
     border-collapse: collapse;
-    top:30%;
+    top:50%;
     right: 30%;
     position: absolute;
     transform: translate(-50%, -50%);

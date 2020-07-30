@@ -14,7 +14,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>MENU</title>
         <link href="CSS/EstiloMenu.css" rel="stylesheet" type="text/css"/>
-   
+        <img src="IMAGENES/bdmenu.png" alt=""/>
     </head>
     <body>
         <div class="menu"> 
@@ -29,16 +29,16 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><a href=""> Datos rol </a></td>
+                    <td><a href="http://localhost:8084/PracticaLaboratorio/ROL.jsp"> Datos rol </a></td>
                 </tr>
                 <tr>
                     <td><a href="http://localhost:8084/PracticaLaboratorio/PERSONA.jsp"> Datos persona </a></td>
                 </tr>
                 <tr>
-                    <td><a href=""> Datos sugerencia </a></td>
+                    <td><a href="http://localhost:8084/PracticaLaboratorio/SUGERENCIA.jsp"> Datos sugerencia </a></td>
                 </tr>
                 <tr>
-                    <td><a href=""> Datos área </a></td>
+                    <td><a href="http://localhost:8084/PracticaLaboratorio/DatosArea.jsp"> Datos área </a></td>
                 </tr>
                 <tr align ='center'>
                     <td colspan="2"><a href="LOGIN.jsp"><input type="button" value="SALIR" name="f_salir" /></a></td>   
