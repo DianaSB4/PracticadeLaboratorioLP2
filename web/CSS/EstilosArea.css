@@ -1,0 +1,109 @@
+table.ar {
+    border-collapse: collapse;
+    top:20%;
+    left:  22%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 4px 10px;
+    opacity: 0.9;
+}
+table.ar a:hover {
+font-size:20px;
+color:#100;
+}
+table.ar td, table.ar th {
+    border: 1px solid #8EA9DB;
+    padding: 6px 12px;
+}
+table.ar thead td , table.ar thead th,
+table.ar tfoot td, table.ar tfoot th{
+    font-weight: bold;
+    background-color: #00dbc9;
+    color: #0022a8;
+}
+table.ar tr:nth-of-type(odd) {
+    background-color: #98f5fa;
+}
+table.ar tr:nth-of-type(even){
+    background-color: #FFFFFF;
+}
+table.ar tbody tr:hover {
+    background-color: #FFFF00;
+}
+table.ar input[type="submit"] {
+  border: 2px;
+  cursor: pointer;
+  background: #00dbc9;
+  font-weight: bold;
+  color: #0022a8;
+  font-size:18px;
+  border-radius:20px;
+}
+
+table.ar input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+  border-radius:20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../IMAGENES/fondoarea.jpeg) no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+table.area {
+    border-collapse: collapse;
+    top:65%;
+    left:  21.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 4px 10px;
+    opacity: 0.9;
+}
+table.area td, table.area th {
+    border: 2px solid #eba773;
+    padding: 6px 12px;
+    font-family: serif;
+}
+table.area thead td, table.area thead th,
+table.area tfoot td, table.area tfoot th{
+    font-weight: bold;
+    background-color: #ff9829;
+    color: #000;
+}
+table.area tr:nth-of-type(odd) {
+    background-color: #FFFFFF;
+    
+}
+table.area tr:nth-of-type(even){
+    background-color: #f5bc7f;
+    
+}
+table.area tbody tr:hover {
+    font-style: italic;
+    font-size:18px;
+    
+}
+table.area input[type="button"] {
+  border: 2px;
+  cursor: pointer;
+  background: #ff9829;
+  font-weight: bold;
+  color: #000;
+  font-size:18px;
+  border-radius:20px;
+}
+
+table.area input[type="button"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+  border-radius:20px;
+}

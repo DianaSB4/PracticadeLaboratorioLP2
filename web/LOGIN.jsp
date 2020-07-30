@@ -10,12 +10,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>LOGIN</title>
-        
+        <link href="CSS/master.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <form name="f_validar" action="VALIDA.jsp">
-            <div>
-                
+            <div class="login-box">
+               <img src="IMAGENES/icono login.jpeg" alt="Avatar Image" class="avatar"/>  
             <table border="0" align="center">
                 <thead>
                     <tr>

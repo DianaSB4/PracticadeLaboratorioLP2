@@ -4,6 +4,8 @@
     Author     : crystopher 
 --%>
 
+
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
@@ -11,13 +13,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>MENU</title>
-        
-
+        <link href="CSS/EstiloMenu.css" rel="stylesheet" type="text/css"/>
+   
     </head>
     <body>
-        <div> 
+        <div class="menu"> 
+            DATABASE - BUZÓN 
+        <table border="1" align="center" class="menu"> 
            
-        <table border="0" align="center" >
+     
             <thead>
                 <tr>
                     <th>MENÚ DE OPCIONES</th>
@@ -44,4 +48,3 @@
         </div>
     </body>
 </html>
-

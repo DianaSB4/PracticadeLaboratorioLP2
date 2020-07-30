@@ -1,8 +1,10 @@
 <%-- 
-    Document   : PERSONA
-    Created on : 29/07/2020, 05:24:29 PM
+    Document   : MENU
+    Created on : 29/07/2020, 05:24:08 PM
     Author     : crystopher 
 --%>
+
+
 
 <%@page import="java.sql.*" %>
 <%@page import="bd.*" %>
@@ -12,6 +14,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Datos Persona</title>
+        <link href="CSS/EstilosPersona.css" rel="stylesheet" type="text/css"/>
         <%!
             String consulta;
             String consulta1;
@@ -56,7 +59,8 @@
     
         
         <form name="EditarPersonaForm" action="PERSONA.jsp" method="GET">
-            <table border="0" align="center">
+           <table border="2" align="center" class="rol">
+                
                 <thead>
                     <tr>
                         <th colspan="2">Editar Persona</th>
@@ -104,7 +108,7 @@
             }else{
         %>
         <form name="AgregarPersonaForm" action="PERSONA.jsp" method="GET" >
-            <table border="0" align="center">
+            <table border="2" align="center" class="rol">
                 <thead>
                     <tr>
                         <th colspan="2">Agregar Persona</th>
@@ -151,7 +155,7 @@
         }
         %>
         
-    <table border="1" cellspacing="0" cellpadding="" align ="center" class="ecologico" style="margin: auto; display: table">
+     <table border="2" align="center" class="general">
            
             <thead>
                 <tr>
