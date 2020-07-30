@@ -1,10 +1,13 @@
 table.general {
     border-collapse: collapse;
-    top:140%;
-    left:50%;
+    top:70%;
+    right: -5%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
+    padding: 4px 10px;
+    width: 400px;
+    height: 250px;
     opacity: 0.9;
 }
 table.general a:hover {
@@ -12,80 +15,111 @@ font-size:20px;
 color:#100;
 }
 table.general td, table.general th {
-    border: 2px solid #f3ff73;
+    border: 1px solid #8EA9DB;
     padding: 6px 12px;
 }
 table.general thead td , table.general thead th,
 table.general tfoot td, table.general tfoot th{
     font-weight: bold;
-    background-color: #ffff33;
-    color: #000;
+    background-color: #4472C4;
+    color: #FFFFFF;
 }
 table.general tr:nth-of-type(odd) {
-    background-color: #f0ee7f;
+    background-color: #D9E1F2;
 }
 table.general tr:nth-of-type(even){
     background-color: #FFFFFF;
 }
 table.general tbody tr:hover {
-    background-color: #239657;
-    color: #FFFFFF;
-}
-table.general input[type="button"]{
-  border: 4px solid #f3ff73;
-  cursor: pointer;
-  background: #ffff33;
-  color: #000;
-  font-size:16px;
-  border-radius:20px;
-}
-table.general input[type="button"]:hover {
-  cursor: pointer;
-  background: #239657;
-  color: #FFFFFF;
-  border-radius:20px;
+    background-color: #FFFF00;
 }
 
+img.rol {
+    position:absolute;
+    left: 20%;
+    top: 10%;
+    width:220px;
+    height: 220px;
+    border-radius:300px;
+    background:#7893cc;
+    border: 5px solid #6682bd;
+}
+img.rolp {
+    position:absolute;
+    left: 35%;
+    top: 33%;
+    width:220px;
+    height: 220px;;
+    border-radius:300px;
+    background:#7893cc;
+    border: 5px solid #6682bd;
+}
+img.role {
+    position:absolute;
+    left: 20%;
+    top: 60%;
+    width:220px;
+    height: 220px;
+    border-radius:300px;
+    background:#7893cc;
+    border: 5px solid #6682bd;
+}
+img.rolle {
+    position:absolute;
+    left: 0%;
+    top: 8%;
+    width:200px;
+    height: 600px;
+}
 body {
   margin: 0;
   padding: 0;
-  background: url(../IMAGENES/fondopersona.jpeg) no-repeat center top;
+  background: url(../IMAGENES/fondorol.png) no-repeat center top;
   background-size: cover;
-  height: 230vh;
+  height: 100vh;
 }
 
-/*Agregar Sugerencia*/
+
 table.rol {
     border-collapse: collapse;
-    top:30%;
-    right: 30%;
+    top:25%;
+    right: 2%;
     position: absolute;
     transform: translate(-50%, -50%);
-    
+    box-sizing: border-box;
+    padding: 4px 10px;
 }
 table.rol td, table.rol th {
-   border: 3px solid #57ffef;
+    border: 2px solid #ff6c12;
     padding: 6px 12px;
-    
-    font-weight: bold;
+    font-family: serif;
 }
 table.rol thead td, table.rol thead th,
 table.rol tfoot td, table.rol tfoot th{
     font-weight: bold;
-    color: #FFFFFF;
+    background-color: #ff8840;
+    color: #000;
 }
 table.rol tr:nth-of-type(odd) {
-    color: #FFFFFF;
+    background-color: #f7be8f;
     
 }
 table.rol tr:nth-of-type(even){
-    color: #FFFFFF;
+    background-color: #ffffff;
     
 }
 table.rol tbody tr:hover {
     font-style: italic;
     font-size:18px;
     
+}
+table.rol input[type="button"] {
+  border: none;
+  cursor: pointer;
+  background: #4b99b8;
+  color: #000;
+  font-size:18px;
+  border-radius:20px;
 }
 table.rol input[type="submit"]{
   border: none;
